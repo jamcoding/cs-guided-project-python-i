@@ -10,4 +10,9 @@ Examples:
 """
 def string_int(txt):
     # Your code here
+    number = int(txt)
+    return number
 
+print(string_int(int("6")))
+print(string_int(int("1000")))
+print(string_int(int("12")))
